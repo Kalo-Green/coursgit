@@ -34,3 +34,27 @@ Afin de vérifer le statut de l'ajout on fait :
 **git status**
 
 **git add -A** OU **git add .** pour ajouter tous les fichiers
+
+Pour faire un commit
+**git commit -m"Premier commit"**
+
+Pour voir l'historique des modifications
+**git log**
+
+Pour modifier un commit 
+**git commit --amend**
+
+Dans VIM 
+
+Taper i pour faire une modification
+
+utiliser les touches de direction pour se positionner sur le message. A la fin de la modification, taper ESC ou ECHAP ==>: ==>w ==>q ==>!
+
+w ==> permet d'enregister les modification
+q ==> permet de quitter 
+! ==> permet de forcer l'action
+
+Donc on enregiste, on quitte et on force l'action
+
+# DEPOT DISTANT
+
