@@ -57,7 +57,7 @@ q ==> permet de quitter
 Donc on enregiste, on quitte et on force l'action
 
 # DEPOT DISTANT
-
+Un dépôt distant qui est héberger sur un serveur. On utilise généralement Github, gitlab ou autres
 **echo "# coursgit" >> README.md**
 **git init** ==> Pour initialiser le dépot
 **git add README.md** == n> Pour créer le fichier README.md
@@ -73,3 +73,35 @@ Si plus tard on fait des modifications et qu'on veut envoyer nos modification su
 **git commit -m "Message du commit"**
 
 **git push**
+
+# Cloner un dépot
+
+Pour cloner un dépot, on fait :
+
+**git clone SUIVI_DE_L'URL_DU_REPOSITORY** (qu'on récupére sur github) 
+
+git clone https://github.com/Kalo-Green/coursgit.git
+
+# LES BRANCHES 
+
+Une branche permet de développer en parallèle des fonctionnalités sur notre projet et de faire des tests et si tout est bon, on pourra fusionner avec la branche principale.
+
+**git branch** permet de voir nos branches
+
+**git branch SUIVI_DU_NOM_DU_DE_LA_BRANCH** Pour créer une branche
+
+git branch profil ==> Pour créer la branch profil
+
+et pour voir à nouveau git branch : *main(en vert) et profil
+
+**git checkout SUIVI_DU_NOM_DU_DE_LA_BRANCH** Pour changer de branche
+
+git checkout profil ==> pour aller sur la branche profil
+
+git add .
+
+git commit -m "Ajout du profil"
+
+git push u- origin profil
+
+
