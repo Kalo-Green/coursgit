@@ -58,3 +58,16 @@ Donc on enregiste, on quitte et on force l'action
 
 # DEPOT DISTANT
 
+**echo "# coursgit" >> README.md**
+**git init** ==> Pour initialiser le dépot
+**git add README.md** == n> Pour créer le fichier README.md
+**git commit -m "first commit"** ==> Ajout du commit + le message
+**git branch -M main** ==> Pour envoyer sur la branche principale(main)
+**git remote add origin https://github.com/Kalo-Green/coursgit.git** ==> ajout du dépot distant
+**git push -u origin main** ==> Transférer le dossier distant
+
+Si plus tard on fait des modifications et qu'on veut envoyer nos modification sur notre dépôt distant, on fera :
+
+**git add .** ou **git 
+
+**git push**
