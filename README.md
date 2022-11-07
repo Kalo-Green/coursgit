@@ -68,6 +68,8 @@ Donc on enregiste, on quitte et on force l'action
 
 Si plus tard on fait des modifications et qu'on veut envoyer nos modification sur notre dépôt distant, on fera :
 
-**git add .** ou **git 
+**git add .** ou **git add -A**
+
+**git commit -m "Message du commit"**
 
 **git push**
