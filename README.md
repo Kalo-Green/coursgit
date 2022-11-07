@@ -96,12 +96,14 @@ et pour voir à nouveau git branch : *main(en vert) et profil
 
 **git checkout SUIVI_DU_NOM_DU_DE_LA_BRANCH** Pour changer de branche
 
-git checkout profil ==> pour aller sur la branche profil
+**git checkout profil** ==> pour aller sur la branche profil
+
+Pour envoyer nos modifications sur la branche profil
 
 git add .
 
 git commit -m "Ajout du profil"
 
-git push u- origin profil
+git push -u origin profil
 
 
